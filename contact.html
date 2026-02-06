@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Faith Muchina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Faith's Journey</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="childhood.html">Childhood</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="future.html">Future</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <button class="toggle-btn" onclick="toggleMode()">
+            <i class="fas fa-moon"></i> Night / Day
+        </button>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="section">
+            <h1>Contact Me</h1>
+            
+            <p>I'm always open to connecting with fellow students, professionals, or anyone interested in technology and data analytics. Feel free to reach out!</p>
+            
+            <h2>Get in Touch</h2>
+            <form onsubmit="return validateForm()">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn" style="width: 100%;">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+            
+            <h2 style="margin-top: 3rem;">Contact Information</h2>
+            
+            <div style="background: rgba(212, 165, 116, 0.1); padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0;">
+                <p><strong><i class="fas fa-envelope"></i> Email:</strong> faithmuchina@gmail.com</p>
+                <p><strong><i class="fas fa-map-marker-alt"></i> Location:</strong> Kenya</p>
+                <p><strong><i class="fas fa-university"></i> University:</strong> Kirinyaga University</p>
+            </div>
+            
+            <h2>Connect on Social Media</h2>
+            <div class="social-links">
+                <a href="mailto:muchinafaith44@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+                <a href="https://github.com/mu149" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://linkedin.com/in/faithmuchina" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+               
+            
+            </div>
+            
+            <p style="margin-top: 2rem; text-align: center;">
+                I typically respond within 24-48 hours. Looking forward to connecting with you!
+            </p>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="index.html" class="btn">
+                    <i class="fas fa-home"></i> Back to Home
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Faith Muchina. All rights reserved.</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
